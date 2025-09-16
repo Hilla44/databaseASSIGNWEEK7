@@ -21,7 +21,8 @@ INSERT INTO CustomerOrders (OrderID, First_Name, Second_name, Product1, Product2
 SELECT * FROM CustomerOrders;
 
 -- question2
-use salesdemo;
+
+use salesdb;
 create database salesdemo;
 use salesdemo;
 -- Step 1: Create Orders table to store order and customer information
